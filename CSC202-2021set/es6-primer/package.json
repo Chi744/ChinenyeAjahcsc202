@@ -1,0 +1,12 @@
+{
+  "name": "es6-primer",
+  "version": "0.0.1",
+  "description": "My first es6 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chinenye Ajah",
+  "license": "MIT",
+  "type": "module"
+}
