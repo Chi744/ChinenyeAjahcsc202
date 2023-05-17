@@ -121,3 +121,18 @@ Promise.all([fetch1,fetch2,fetch3])//get the data for the three calls in an arra
 .then((data)=>{//data below is indexed eg [0],[1]
  logger(`User1 = ${data[0].name}; User2 = ${data[1].name}; User3 = ${data[2].name}`);//display data from array
 }) 
+
+
+//Illustrating Async/Await
+//It is a way to call functions that return promise. This approach is morr in line with other exception handling conventions
+
+const usePromiseAwareSetTimeout = async  (millisecond) =>{
+    
+    try{
+        const data = await PromiseAwareSetTimeout(millisecond);
+        //do what you want with your data
+    }catch(error){
+        //do what u want with error. 
+    }
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "typescript-primer",
+  "version": "1.0.0",
+  "description": "First type script class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Chinenye Ajah",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.5",
+    "typescript": "^5.0.4"
+  }
+}
