@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context:
+      dockerfile: Dockerfile
+  ports:
+    - 80.80
+  restart: always
+  extra_hosts:
+    -"nest-waf:192.168.37.152"
